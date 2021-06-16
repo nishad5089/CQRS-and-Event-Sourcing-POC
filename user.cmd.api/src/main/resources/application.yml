@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  data:
+   mongodb:
+     host: localhost
+     port: 27017
+     database: user
